@@ -1,0 +1,383 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN" class="loading">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>JDK各版本主要特性汇总 - aispring个人博客</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="google" content="notranslate" />
+    
+    <meta name="keywords" content="aispring blog,小迎记,JDK"> 
+    
+    <meta name="description" content="aispring cloud 个人博客,JDK各版本主要特性汇总
+JDK 17(LTS)
+特定于上下文的反序列化过滤器
+Vector API 
+外部函数和内存 API
+弃用安全管理器以进行删除
+删除实验性 AOT 和 JIT 编译器
+密封,"> 
+    
+    <meta name="author" content="aispring"> 
+    
+    <link rel="alternative" href="atom.xml" title="aispring个人博客" type="application/atom+xml"> 
+    
+    <link rel="icon" href="/img/favicon.png"> 
+    
+    
+<link rel="stylesheet" href="/css/diaspora.css">
+
+    <!-- <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: "ca-pub-8691406134231910",
+              enable_page_level_ads: true
+         });
+    </script>
+    <script async custom-element="amp-auto-ads"
+        src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+    </script> -->
+    <script>
+        // 百度统计
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?6b3337a544800c8e07595c8535849884";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+        // 360索引
+        (function () {
+            var src = "https://s.ssl.qhres2.com/ssl/ab77b6ea7f3fbf79.js";
+            document.write('<script src="' + src + '" id="sozz"><\/script>');
+        })();
+    </script>
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+<body class="loading">
+    <span id="config-title" style="display:none">aispring个人博客</span>
+    <div id="loader"></div>
+    <div id="single">
+    <div id="top" style="display: block;">
+    <div class="bar" style="width: 0;"></div>
+    <a class="iconfont icon-home image-icon" href="javascript:;" data-url="https://www.aispring.cloud"></a>
+    <div title="播放/暂停" class="iconfont icon-play"></div>
+    <h3 class="subtitle">JDK各版本主要特性汇总</h3>
+    <div class="social">
+        <div>
+            <div class="share">
+                <a title="获取二维码" class="iconfont icon-scan" href="javascript:;"></a>
+            </div>
+            <div id="qr"></div>
+        </div>
+    </div>
+    <div class="scrollbar"></div>
+</div>
+
+    <div class="section">
+        <div class="article">
+    <div class='main'>
+        <h1 class="title">JDK各版本主要特性汇总</h1>
+        <div class="stuff">
+            <span>九月 14, 2021</span>
+            
+
+        </div>
+        <div class="content markdown">
+            <p>JDK各版本主要特性汇总</p>
+<h2 id="JDK-17-LTS"><a href="#JDK-17-LTS" class="headerlink" title="JDK 17(LTS)"></a>JDK 17(LTS)</h2><ul>
+<li>特定于上下文的反序列化过滤器</li>
+<li>Vector API </li>
+<li>外部函数和内存 API</li>
+<li>弃用安全管理器以进行删除</li>
+<li>删除实验性 AOT 和 JIT 编译器</li>
+<li>密封类</li>
+<li>删除 RMI 激活</li>
+<li>模式匹配switch</li>
+<li>JDK 内部的强封装</li>
+<li>弃用 Applet API 以进行删除</li>
+<li>JDK 移植到 MacOS/AArch64</li>
+<li>新的 macOS 渲染管线</li>
+<li>增强型伪随机数生成器</li>
+<li>恢复始终严格的浮点语义</li>
+</ul>
+<h2 id="JDK-16"><a href="#JDK-16" class="headerlink" title="JDK 16"></a>JDK 16</h2><ul>
+<li><p>允许在 JDK C ++源代码中使用 C ++ 14功能</p>
+</li>
+<li><p>掉ZGC线程堆栈处理从安全点到并发阶段</p>
+</li>
+<li><p>增加 Unix 域套接字通道</p>
+</li>
+<li><p>弹性元空间能力</p>
+</li>
+<li><p>提供用于打包独立 Java 应用程序的 jpackage 工具</p>
+<h2 id="JDK-15"><a href="#JDK-15" class="headerlink" title="JDK 15"></a>JDK 15</h2></li>
+<li><p>EdDSA 数字签名算法</p>
+</li>
+<li><p>Sealed Classes（封闭类，预览）</p>
+</li>
+<li><p>Hidden Classes（隐藏类）</p>
+</li>
+<li><p>移除 Nashorn JavaScript引擎</p>
+</li>
+<li><p>改进java.net.DatagramSocket 和 java.net.MulticastSocket底层实现</p>
+</li>
+</ul>
+<h2 id="JDK-14"><a href="#JDK-14" class="headerlink" title="JDK 14"></a>JDK 14</h2><ul>
+<li><p>instanceof模式匹配</p>
+</li>
+<li><p>Record类型，类似于Lombok 的@Data注解</p>
+</li>
+<li><p>Switch 表达式-标准化</p>
+</li>
+<li><p>改进 NullPointerExceptions提示信息</p>
+</li>
+<li><p>删除 CMS 垃圾回收器</p>
+<h2 id="JDK-13"><a href="#JDK-13" class="headerlink" title="JDK 13"></a>JDK 13</h2></li>
+<li><p>Switch 表达式扩展（引入 yield 关键字）</p>
+</li>
+<li><p>文本块升级 “””</p>
+</li>
+<li><p>SocketAPI 重构</p>
+</li>
+<li><p>FileSystems.newFileSystem新方法</p>
+</li>
+<li><p>增强 ZGC 释放未使用内存</p>
+<h2 id="JDK-12"><a href="#JDK-12" class="headerlink" title="JDK 12"></a>JDK 12</h2></li>
+<li><p>Switch 表达式扩展</p>
+</li>
+<li><p>新增NumberFormat对复杂数字的格式化</p>
+</li>
+<li><p>字符串支持transform、indent操作</p>
+</li>
+<li><p>新增方法Files.mismatch(Path, Path)</p>
+</li>
+<li><p>Teeing Collector</p>
+</li>
+<li><p>支持unicode 11</p>
+</li>
+</ul>
+<h2 id="JDK-11-LTS"><a href="#JDK-11-LTS" class="headerlink" title="JDK 11(LTS)"></a>JDK 11(LTS)</h2><ul>
+<li><p>增加一些符串处理方法</p>
+</li>
+<li><p>用于 Lambda 参数的局部变量语法</p>
+</li>
+<li><p>Http Client重写，支持HTTP/1.1和HTTP/2 ，也支持 websockets</p>
+</li>
+<li><p>可运行单一Java源码文件，如：java Test.java</p>
+</li>
+<li><p>ZGC：可伸缩低延迟垃圾收集器</p>
+</li>
+<li><p>支持 TLS 1.3 协议</p>
+<h2 id="JDK-10"><a href="#JDK-10" class="headerlink" title="JDK 10"></a>JDK 10</h2></li>
+<li><p>局部变量类型推断</p>
+</li>
+<li><p>不可变集合的改进</p>
+</li>
+<li><p>并行全垃圾回收器 G1</p>
+</li>
+<li><p>线程本地握手</p>
+</li>
+<li><p>Optional新增orElseThrow()方法</p>
+</li>
+<li><p>类数据共享</p>
+</li>
+<li><p>Unicode 语言标签扩展</p>
+</li>
+<li><p>根证书</p>
+<h2 id="JDK-9"><a href="#JDK-9" class="headerlink" title="JDK 9"></a>JDK 9</h2></li>
+<li><p>模块化</p>
+</li>
+<li><p>提供了List.of()、Set.of()、Map.of()和Map.ofEntries()等工厂方法</p>
+</li>
+<li><p>接口支持私有方法</p>
+</li>
+<li><p>Optional 类改进</p>
+</li>
+<li><p>多版本兼容Jar包</p>
+</li>
+<li><p>JShell工具</p>
+</li>
+<li><p>try-with-resources的改进</p>
+</li>
+<li><p>Stream API的改进</p>
+<h2 id="JDK-1-8-LTS"><a href="#JDK-1-8-LTS" class="headerlink" title="JDK 1.8(LTS)"></a>JDK 1.8(LTS)</h2></li>
+<li><p>lambada表达式</p>
+</li>
+<li><p>函数式接口</p>
+</li>
+<li><p>方法引用</p>
+</li>
+<li><p>默认方法</p>
+</li>
+<li><p>Stream API 对元素流进行函数式操作</p>
+</li>
+<li><p>Optional 解决NullPointerException</p>
+</li>
+<li><p>Date Time API</p>
+</li>
+<li><p>重复注解 @Repeatable</p>
+</li>
+<li><p>Base64</p>
+</li>
+<li><p>使用元空间Metaspace代替持久代（PermGen space）</p>
+<h2 id="JDK-1-7"><a href="#JDK-1-7" class="headerlink" title="JDK 1.7"></a>JDK 1.7</h2></li>
+<li><p>switch 支持String字符串类型</p>
+</li>
+<li><p>try-with-resources，资源自动关闭</p>
+</li>
+<li><p>整数类型能够用二进制来表示</p>
+</li>
+<li><p>数字常量支持下划线</p>
+</li>
+<li><p>泛型实例化类型自动推断,即”&lt;&gt;”</p>
+</li>
+<li><p>catch捕获多个异常类型，用（|）分隔开</p>
+</li>
+<li><p>全新的NIO2.0 API</p>
+</li>
+<li><p>Fork/join 并行执行任务的框架</p>
+<h2 id="JDK-1-6"><a href="#JDK-1-6" class="headerlink" title="JDK 1.6"></a>JDK 1.6</h2></li>
+<li><p>java.awt新增Desktop类和SystemTray类</p>
+</li>
+<li><p>使用JAXB2来实现对象与XML之间的映射</p>
+</li>
+<li><p>轻量级 Http Server API</p>
+</li>
+<li><p>插入式注解处理API(lombok使用该特性来实现的)</p>
+</li>
+<li><p>STAX，处理XML文档的API</p>
+</li>
+<li><p>Compiler API</p>
+</li>
+<li><p>对脚本语言的支持（ruby, groovy, javascript）</p>
+<h2 id="JDK-1-5"><a href="#JDK-1-5" class="headerlink" title="JDK 1.5"></a>JDK 1.5</h2></li>
+<li><p>泛型(本质是参数化类型，解决不确定具体对象类型的问题)</p>
+</li>
+<li><p>增强的for循环（for-each）</p>
+</li>
+<li><p>自动装箱和自动拆箱</p>
+</li>
+<li><p>类型安全的枚举(enum)</p>
+</li>
+<li><p>可变长度参数</p>
+</li>
+<li><p>静态引入（import static）</p>
+</li>
+<li><p>元数据（注解）</p>
+</li>
+<li><p>线程并发库（java.util.concurrent）</p>
+</li>
+</ul>
+
+            <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
+            <audio id="audio" loop="1" preload="auto" controls="controls"
+                data-autoplay="true">
+                <source type="audio/mpeg" src="https://s3-api.aispring.cloud/public/music/blog.mp3">
+            </audio>
+            
+        </div>
+        
+    <div id='gitalk-container' class="comment link"
+		data-enable='false'
+        data-ae='false'
+        data-ci=''
+        data-cs=''
+        data-r=''
+        data-o=''
+        data-a=''
+        data-d='false'
+    >查看评论</div>
+
+
+        </div>
+        
+        <div class='side'>
+            <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#JDK-17-LTS"><span class="toc-number">1.</span> <span class="toc-text">JDK 17(LTS)</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#JDK-16"><span class="toc-number">2.</span> <span class="toc-text">JDK 16</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#JDK-15"><span class="toc-number">3.</span> <span class="toc-text">JDK 15</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#JDK-14"><span class="toc-number">4.</span> <span class="toc-text">JDK 14</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#JDK-13"><span class="toc-number">5.</span> <span class="toc-text">JDK 13</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#JDK-12"><span class="toc-number">6.</span> <span class="toc-text">JDK 12</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#JDK-11-LTS"><span class="toc-number">7.</span> <span class="toc-text">JDK 11(LTS)</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#JDK-10"><span class="toc-number">8.</span> <span class="toc-text">JDK 10</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#JDK-9"><span class="toc-number">9.</span> <span class="toc-text">JDK 9</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#JDK-1-8-LTS"><span class="toc-number">10.</span> <span class="toc-text">JDK 1.8(LTS)</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#JDK-1-7"><span class="toc-number">11.</span> <span class="toc-text">JDK 1.7</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#JDK-1-6"><span class="toc-number">12.</span> <span class="toc-text">JDK 1.6</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#JDK-1-5"><span class="toc-number">13.</span> <span class="toc-text">JDK 1.5</span></a></li></ol>
+        </div>
+        
+</div>
+    </div>
+</div>
+
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
+
+
+<script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>
+<script src="/js/plugin.js"></script>
+<script src="/js/typed.js"></script>
+<script src="/js/diaspora.js"></script>
+
+
+<link rel="stylesheet" href="/photoswipe/photoswipe.css">
+<link rel="stylesheet" href="/photoswipe/default-skin/default-skin.css">
+
+
+<script src="/photoswipe/photoswipe.min.js"></script>
+<script src="/photoswipe/photoswipe-ui-default.min.js"></script>
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <!--  Controls are self-explanatory. Order can be changed. -->
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;"></canvas>
+<script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script>
+<script type="text/javascript" src="/js/fireworks.js"></script>
+
+
+</html>
